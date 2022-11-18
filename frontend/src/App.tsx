@@ -1,10 +1,19 @@
 import NotificationButton from "./components/NotificationButton/inedx"
+import Header from "./components/Header/index"
+import SalesCard from "./components/SalesCard/index"
 
 function App() {
   return(
     <>
-      <h1>ola mundo</h1>
-      <NotificationButton/>
+      <Header />
+      <main>
+        <section id="sales">
+            <div className="dsmeta-container">
+                <SalesCard/>
+
+            </div>
+        </section>
+      </main>                
     </>
   )
 }
