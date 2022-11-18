@@ -1,6 +1,5 @@
-import NotificationButton from "./components/NotificationButton/inedx"
-import Header from "./components/Header/index"
-import SalesCard from "./components/SalesCard/index"
+import Header from "./components/Header/index";
+import SalesCard from "./components/SalesCard/index";
 
 function App() {
   return(
@@ -18,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
